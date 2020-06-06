@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 1696 954" width="1696" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="212" rows="56"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 5954ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+16.560%{transform:translateY(-986px)}
+23.682%{transform:translateY(-1972px)}
+37.958%{transform:translateY(-2958px)}
+42.375%{transform:translateY(-3944px)}
+42.408%{transform:translateY(-4930px)}
+46.473%{transform:translateY(-5916px)}
+46.523%{transform:translateY(-6902px)}
+54.887%{transform:translateY(-7888px)}
+58.969%{transform:translateY(-8874px)}
+59.053%{transform:translateY(-9860px)}
+62.042%{transform:translateY(-10846px)}
+66.829%{transform:translateY(-11832px)}
+66.930%{transform:translateY(-12818px)}
+67.031%{transform:translateY(-13804px)}
+83.205%{transform:translateY(-14790px)}
+100.000%{transform:translateY(-14790px)}
+            }
+
+            #screen_view {
+                animation-duration: 5954ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="1696" height="952" viewBox="0 0 1696 952" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="16" class="foreground">$ </text><text x="16" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="288" class="foreground">$ pipenv run python ./stun_client.py</text><text x="288" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="288" class="foreground">$ pipenv run python ./stun_client.py</text></g><g id="g4"><text x="0" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="1168" class="foreground">[Info] Send pkt to ('173.194.199.127', 19302): 0x00,0x01,0x00,0x00,0x21,0x12,0xa4,0x42,0xb4,0x4e,0x11,0x9d,0xf2,0x1d,0x8b,0x1d,0x7e,0x6e,0xe0,0xf8</text></g><g id="g6"><text x="0" textLength="1664" class="foreground">[Info] Recv pkt from ('173.194.199.127', 19302): 0x01,0x01,0x00,0x0c,0x21,0x12,0xa4,0x42,0xb4,0x4e,0x11,0x9d,0xf2,0x1d,0x8b,0x1d,0x7e,0x6e,0xe0,0xf8,0x00,0x20,0x00,0x08,0x00,0x01,0xf5,0x95,0x5b,0x61,0x4c,0xc2</text></g><g id="g7"><text x="0" textLength="232" class="foreground">[OK] test1: binding normal IP</text></g><g id="g8"><text x="0" textLength="1488" class="foreground">[Info] Send pkt to ('173.194.199.127', 19302): 0x00,0x01,0x00,0x08,0x21,0x12,0xa4,0x42,0x0c,0x3e,0x40,0x3c,0x67,0x0d,0xd9,0xbe,0x8d,0xb9,0x09,0xdd,0x00,0x03,0x00,0x04,0x00,0x00,0x00,0x04</text></g><g id="g9"><text x="0" textLength="1664" class="foreground">[Info] Recv pkt from ('173.194.199.127', 19302): 0x01,0x01,0x00,0x0c,0x21,0x12,0xa4,0x42,0x0c,0x3e,0x40,0x3c,0x67,0x0d,0xd9,0xbe,0x8d,0xb9,0x09,0xdd,0x00,0x20,0x00,0x08,0x00,0x01,0xf5,0x95,0x5b,0x61,0x4c,0xc2</text></g><g id="g10"><text x="0" textLength="168" class="foreground">[OK] test2: change IP</text></g><g id="g11"><text x="0" textLength="1488" class="foreground">[Info] Send pkt to ('173.194.199.127', 19302): 0x00,0x01,0x00,0x08,0x21,0x12,0xa4,0x42,0x92,0xe0,0xf1,0x1c,0xbe,0x19,0xf6,0xfb,0x1a,0xcd,0xc8,0x66,0x00,0x03,0x00,0x04,0x00,0x00,0x00,0x02</text></g><g id="g12"><text x="0" textLength="1664" class="foreground">[Info] Recv pkt from ('173.194.199.127', 19302): 0x01,0x01,0x00,0x0c,0x21,0x12,0xa4,0x42,0x92,0xe0,0xf1,0x1c,0xbe,0x19,0xf6,0xfb,0x1a,0xcd,0xc8,0x66,0x00,0x20,0x00,0x08,0x00,0x01,0xf5,0x95,0x5b,0x61,0x4c,0xc2</text></g><g id="g13"><text x="0" textLength="184" class="foreground">[OK] test3: change port</text></g><g id="g14"><text x="0" textLength="1160" class="foreground">[Info] Send pkt to ('74.125.202.127', 19302): 0x00,0x01,0x00,0x00,0x21,0x12,0xa4,0x42,0x51,0xb5,0x9b,0xf1,0xc8,0x02,0xa7,0xad,0xbd,0xa5,0xc1,0xfb</text></g><g id="g15"><text x="0" textLength="1656" class="foreground">[Info] Recv pkt from ('74.125.202.127', 19302): 0x01,0x01,0x00,0x0c,0x21,0x12,0xa4,0x42,0x51,0xb5,0x9b,0xf1,0xc8,0x02,0xa7,0xad,0xbd,0xa5,0xc1,0xfb,0x00,0x20,0x00,0x08,0x00,0x01,0xf5,0x95,0x5b,0x61,0x4c,0xc2</text></g><g id="g16"><text x="0" textLength="240" class="foreground">[OK] test4: binding another IP</text></g><g id="g17"><text x="0" textLength="64" class="foreground">[RESULT]</text></g><g id="g18"><text x="0" textLength="152" class="foreground">Independent mapping</text></g><g id="g19"><text x="0" textLength="144" class="foreground">Independent Filter</text></g><g id="g20"><text x="0" textLength="16" class="foreground">$ </text></g></defs><g id="screen_view"><g><rect x="16" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="288" y="986" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="986"/></g><g><use xlink:href="#g3" y="1972"/><rect x="0" y="1989" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="1989"/></g><g><use xlink:href="#g3" y="2958"/><use xlink:href="#g5" y="2975"/><rect x="0" y="2992" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="2992"/></g><g><use xlink:href="#g3" y="3944"/><use xlink:href="#g5" y="3961"/><use xlink:href="#g6" y="3978"/><rect x="0" y="3995" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="3995"/></g><g><use xlink:href="#g3" y="4930"/><use xlink:href="#g5" y="4947"/><use xlink:href="#g6" y="4964"/><use xlink:href="#g7" y="4981"/><use xlink:href="#g8" y="4998"/><rect x="0" y="5015" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="5015"/></g><g><use xlink:href="#g3" y="5916"/><use xlink:href="#g5" y="5933"/><use xlink:href="#g6" y="5950"/><use xlink:href="#g7" y="5967"/><use xlink:href="#g8" y="5984"/><use xlink:href="#g9" y="6001"/><rect x="0" y="6018" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="6018"/></g><g><use xlink:href="#g3" y="6902"/><use xlink:href="#g5" y="6919"/><use xlink:href="#g6" y="6936"/><use xlink:href="#g7" y="6953"/><use xlink:href="#g8" y="6970"/><use xlink:href="#g9" y="6987"/><use xlink:href="#g10" y="7004"/><use xlink:href="#g11" y="7021"/><rect x="0" y="7038" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="7038"/></g><g><use xlink:href="#g3" y="7888"/><use xlink:href="#g5" y="7905"/><use xlink:href="#g6" y="7922"/><use xlink:href="#g7" y="7939"/><use xlink:href="#g8" y="7956"/><use xlink:href="#g9" y="7973"/><use xlink:href="#g10" y="7990"/><use xlink:href="#g11" y="8007"/><use xlink:href="#g11" y="8024"/><rect x="0" y="8041" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="8041"/></g><g><use xlink:href="#g3" y="8874"/><use xlink:href="#g5" y="8891"/><use xlink:href="#g6" y="8908"/><use xlink:href="#g7" y="8925"/><use xlink:href="#g8" y="8942"/><use xlink:href="#g9" y="8959"/><use xlink:href="#g10" y="8976"/><use xlink:href="#g11" y="8993"/><use xlink:href="#g11" y="9010"/><use xlink:href="#g12" y="9027"/><rect x="0" y="9044" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="9044"/></g><g><use xlink:href="#g3" y="9860"/><use xlink:href="#g5" y="9877"/><use xlink:href="#g6" y="9894"/><use xlink:href="#g7" y="9911"/><use xlink:href="#g8" y="9928"/><use xlink:href="#g9" y="9945"/><use xlink:href="#g10" y="9962"/><use xlink:href="#g11" y="9979"/><use xlink:href="#g11" y="9996"/><use xlink:href="#g12" y="10013"/><use xlink:href="#g13" y="10030"/><rect x="0" y="10047" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="10047"/></g><g><use xlink:href="#g3" y="10846"/><use xlink:href="#g5" y="10863"/><use xlink:href="#g6" y="10880"/><use xlink:href="#g7" y="10897"/><use xlink:href="#g8" y="10914"/><use xlink:href="#g9" y="10931"/><use xlink:href="#g10" y="10948"/><use xlink:href="#g11" y="10965"/><use xlink:href="#g11" y="10982"/><use xlink:href="#g12" y="10999"/><use xlink:href="#g13" y="11016"/><use xlink:href="#g14" y="11033"/><rect x="0" y="11050" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="11050"/></g><g><use xlink:href="#g3" y="11832"/><use xlink:href="#g5" y="11849"/><use xlink:href="#g6" y="11866"/><use xlink:href="#g7" y="11883"/><use xlink:href="#g8" y="11900"/><use xlink:href="#g9" y="11917"/><use xlink:href="#g10" y="11934"/><use xlink:href="#g11" y="11951"/><use xlink:href="#g11" y="11968"/><use xlink:href="#g12" y="11985"/><use xlink:href="#g13" y="12002"/><use xlink:href="#g14" y="12019"/><use xlink:href="#g15" y="12036"/><rect x="0" y="12053" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="12053"/></g><g><use xlink:href="#g3" y="12818"/><use xlink:href="#g5" y="12835"/><use xlink:href="#g6" y="12852"/><use xlink:href="#g7" y="12869"/><use xlink:href="#g8" y="12886"/><use xlink:href="#g9" y="12903"/><use xlink:href="#g10" y="12920"/><use xlink:href="#g11" y="12937"/><use xlink:href="#g11" y="12954"/><use xlink:href="#g12" y="12971"/><use xlink:href="#g13" y="12988"/><use xlink:href="#g14" y="13005"/><use xlink:href="#g15" y="13022"/><use xlink:href="#g16" y="13039"/><use xlink:href="#g17" y="13073"/><use xlink:href="#g18" y="13090"/><use xlink:href="#g19" y="13107"/><rect x="0" y="13124" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="13124"/></g><g><use xlink:href="#g3" y="13804"/><use xlink:href="#g5" y="13821"/><use xlink:href="#g6" y="13838"/><use xlink:href="#g7" y="13855"/><use xlink:href="#g8" y="13872"/><use xlink:href="#g9" y="13889"/><use xlink:href="#g10" y="13906"/><use xlink:href="#g11" y="13923"/><use xlink:href="#g11" y="13940"/><use xlink:href="#g12" y="13957"/><use xlink:href="#g13" y="13974"/><use xlink:href="#g14" y="13991"/><use xlink:href="#g15" y="14008"/><use xlink:href="#g16" y="14025"/><use xlink:href="#g17" y="14059"/><use xlink:href="#g18" y="14076"/><use xlink:href="#g19" y="14093"/><rect x="16" y="14110" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="14110"/></g><g><use xlink:href="#g3" y="14790"/><use xlink:href="#g5" y="14807"/><use xlink:href="#g6" y="14824"/><use xlink:href="#g7" y="14841"/><use xlink:href="#g8" y="14858"/><use xlink:href="#g9" y="14875"/><use xlink:href="#g10" y="14892"/><use xlink:href="#g11" y="14909"/><use xlink:href="#g11" y="14926"/><use xlink:href="#g12" y="14943"/><use xlink:href="#g13" y="14960"/><use xlink:href="#g14" y="14977"/><use xlink:href="#g15" y="14994"/><use xlink:href="#g16" y="15011"/><use xlink:href="#g17" y="15045"/><use xlink:href="#g18" y="15062"/><use xlink:href="#g19" y="15079"/><use xlink:href="#g20" y="15096"/><rect x="0" y="15113" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="15113"/></g></g></svg>
+</svg>
