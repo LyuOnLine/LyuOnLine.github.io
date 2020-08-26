@@ -2,3 +2,11 @@
 
 - webrtc
   - [stun](stun_protocol.md)
+
+- embedded platform
+  - Hisi3559V200
+    - [SDK guide step by step](hisi3559_sdk_step_by_step.md)
+    - [mmz memory config]()
+    - [liteos sourcecode walkthrough]()
+    - [mpp system]()
+    - [svp system]()
