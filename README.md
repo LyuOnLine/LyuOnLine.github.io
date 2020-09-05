@@ -12,6 +12,7 @@
       - [cmake for build apps externally from SDK](hisi3559_cmake_build_standalone_apps.md)
       - [mpp API and example]()
     - [svp system]()
+      - [Convert models with nnie_mapper](hisi3559_nnie_mapper.md)
       - [FasterRcnn running on nnie]()
       - [Yolov3 running on nnie]()
       - [Yolov3-tiny running on nnie]()
